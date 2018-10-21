@@ -1,5 +1,5 @@
-# clj-opencv-maven-example
-Clojure application to use opencv via maven repository.
+# clj-opencv-clj-project--example
+Clojure application to use opencv on clj project repository.
 
 # Requirement
 
