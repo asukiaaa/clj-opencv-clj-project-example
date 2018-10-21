@@ -1,2 +1,3 @@
-{:deps
- {org.openpnp/opencv {:mvn/version "3.2.0-1"}}}
+{:deps {;org.openpnp/opencv {:mvn/version "3.4.2-0"}
+        local-file/opencv {:local/root "lib/opencv-342.jar"}}
+ :aliases {:local-opencv {:jvm-opts ["-Djava.library.path=lib"]}}}
